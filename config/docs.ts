@@ -120,6 +120,11 @@ export const docsConfig: DocsConfig = {
       title: "Components",
       items: [
         {
+          title: "Cells Pattern", 
+          href: `/docs/components/cells-pattern`,
+          items: [], 
+        },
+        {
           title: "Marquee",
           href: `/docs/components/marquee`,
           items: [],

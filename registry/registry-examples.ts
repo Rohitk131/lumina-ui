@@ -2,6 +2,12 @@ import { Registry } from "@/registry/schema";
 
 export const examples: Registry = [
   {
+    name: "cells-pattern-demo",
+    type: "registry:example",
+    registryDependencies: ["cells-pattern"],
+    files: ["example/cells-pattern-demo.tsx"],
+  },
+  {
     name: "magic-card-demo",
     type: "registry:example",
     registryDependencies: ["magic-card"],

@@ -2,6 +2,12 @@ import { Registry } from "@/registry/schema";
 
 export const ui: Registry = [
   {
+    name: "cells-pattern",
+    type: "registry:ui",
+    dependencies: ["react-icons"], 
+    files: ["magicui/cells-pattern.tsx"],
+  },
+  {
     name: "magic-card",
     type: "registry:ui",
     dependencies: ["framer-motion"],
